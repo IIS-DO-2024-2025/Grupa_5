@@ -22,4 +22,11 @@ public class AddPointCmd implements Command {
 		model.remove(point);
 	}
 
+	@Override
+	public String toString() {
+		return "AddPointCmd [point=" + point + ", model=" + model + "]";
+	}
+	
+	
+
 }
