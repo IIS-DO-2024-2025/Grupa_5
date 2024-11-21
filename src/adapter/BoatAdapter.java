@@ -4,7 +4,7 @@ import hexagon.Hexagon;
 
 public class BoatAdapter implements Vehicle {
 	
-	private Hexagon hexagon;
+	//private Hexagon hexagon;
 	
 	private Boat boat;
 	
