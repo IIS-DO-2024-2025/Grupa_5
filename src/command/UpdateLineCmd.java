@@ -27,6 +27,10 @@ public class UpdateLineCmd implements Command{
 		line.getEndPoint().setX(newState.getEndPoint().getX());
 		line.getEndPoint().setY(newState.getEndPoint().getY());
 		line.setColor(newState.getColor());
+		
+		// Primena nakon uvođenja prototype obrasca
+//		oldState = line.clone();
+//		line = newState.clone();
 	}
 
 	@Override
